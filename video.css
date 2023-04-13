@@ -1,0 +1,92 @@
+
+body{
+    background-image:url('./face/animated/r2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 20% 60% 20% ;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+   
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.left{
+    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.img1{
+    width: 50%;
+    height: 50%;
+    margin-left: 45%;
+    margin-top: 25%;
+   border-radius: 70px;
+}
+.middle{
+   
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.vd1
+{
+    width: 80%;
+    height: 80%;
+    margin-top: 23px;
+    margin-left: 52px;
+   
+    
+}
+
+.right{
+   
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.img2{
+    width: 50%;
+    height: 50%;
+   
+    margin-top: 25%;
+   border-radius: 70px;
+}
+.footer{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+
+
+
+
+button{
+    margin-top:10px;
+     width:30%;
+     height: 30px;
+     text-align: center;
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+     border-radius: 5px;
+     background-color: rgb(80, 96, 120);
+     text-transform: capitalize;
+ }
+ a button {
+     text-decoration: none;
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+     
+ }
+
+
+
+

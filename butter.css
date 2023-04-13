@@ -1,0 +1,42 @@
+
+body{
+    background-image: url("./face/animated/4.gif"),url("./face/animated/3.gif"),url("./face/animated/blast1.gif");
+}
+.container{
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 64vh;
+      background-color: white; 
+}
+.main1{
+   width:100%;
+   height: 100%;   
+}
+.cracker{
+    width:100%;
+    height:100%;
+}
+
+button{
+    margin-top:10px;
+     width:30%;
+     height: 30px;
+     text-align: center;
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+     border-radius: 5px;
+     background-color: rgb(80, 96, 120);
+     text-transform: capitalize;
+ }
+ a button {
+     text-decoration: none;
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+     
+ }
+
+
+
+
